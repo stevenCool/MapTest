@@ -1,24 +1,24 @@
 //
-//  FirstViewController.m
+//  OnlineViewController.m
 //  MapTest
 //
 //  Created by steven on 1/5/13.
 //  Copyright (c) 2013 steven. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "OnlineViewController.h"
 
-@interface FirstViewController ()
+@interface OnlineViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation OnlineViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"First", @"First");
+        self.title = NSLocalizedString(@"Online", @"Online");
         self.tabBarItem.image = [UIImage imageNamed:@"first"];
     }
     return self;

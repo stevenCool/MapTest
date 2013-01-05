@@ -16,14 +16,16 @@
 		B081FBEF169803C3003D5DD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FBEE169803C3003D5DD4 /* Default.png */; };
 		B081FBF1169803C3003D5DD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FBF0169803C3003D5DD4 /* Default@2x.png */; };
 		B081FBF3169803C4003D5DD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FBF2169803C3003D5DD4 /* Default-568h@2x.png */; };
-		B081FBF6169803C4003D5DD4 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081FBF5169803C4003D5DD4 /* FirstViewController.m */; };
+		B081FBF6169803C4003D5DD4 /* OnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081FBF5169803C4003D5DD4 /* OnlineViewController.m */; };
 		B081FBF8169803C4003D5DD4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FBF7169803C4003D5DD4 /* first.png */; };
 		B081FBFA169803C4003D5DD4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FBF9169803C4003D5DD4 /* first@2x.png */; };
-		B081FBFD169803C4003D5DD4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081FBFC169803C4003D5DD4 /* SecondViewController.m */; };
+		B081FBFD169803C4003D5DD4 /* TrafficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081FBFC169803C4003D5DD4 /* TrafficViewController.m */; };
 		B081FBFF169803C4003D5DD4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FBFE169803C4003D5DD4 /* second.png */; };
 		B081FC01169803C4003D5DD4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B081FC00169803C4003D5DD4 /* second@2x.png */; };
-		B081FC04169803C4003D5DD4 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081FC02169803C4003D5DD4 /* FirstViewController.xib */; };
-		B081FC07169803C4003D5DD4 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081FC05169803C4003D5DD4 /* SecondViewController.xib */; };
+		B081FC04169803C4003D5DD4 /* OnlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081FC02169803C4003D5DD4 /* OnlineViewController.xib */; };
+		B081FC07169803C4003D5DD4 /* TrafficViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081FC05169803C4003D5DD4 /* TrafficViewController.xib */; };
+		B081FC1416980795003D5DD4 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081FC1216980795003D5DD4 /* PictureViewController.m */; };
+		B081FC1516980795003D5DD4 /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081FC1316980795003D5DD4 /* PictureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +42,19 @@
 		B081FBEE169803C3003D5DD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B081FBF0169803C3003D5DD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B081FBF2169803C3003D5DD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		B081FBF4169803C4003D5DD4 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B081FBF5169803C4003D5DD4 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B081FBF4169803C4003D5DD4 /* OnlineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OnlineViewController.h; sourceTree = "<group>"; };
+		B081FBF5169803C4003D5DD4 /* OnlineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnlineViewController.m; sourceTree = "<group>"; };
 		B081FBF7169803C4003D5DD4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		B081FBF9169803C4003D5DD4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		B081FBFB169803C4003D5DD4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B081FBFC169803C4003D5DD4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B081FBFB169803C4003D5DD4 /* TrafficViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrafficViewController.h; sourceTree = "<group>"; };
+		B081FBFC169803C4003D5DD4 /* TrafficViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrafficViewController.m; sourceTree = "<group>"; };
 		B081FBFE169803C4003D5DD4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		B081FC00169803C4003D5DD4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		B081FC03169803C4003D5DD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		B081FC06169803C4003D5DD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		B081FC03169803C4003D5DD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OnlineViewController.xib; sourceTree = "<group>"; };
+		B081FC06169803C4003D5DD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrafficViewController.xib; sourceTree = "<group>"; };
+		B081FC1116980795003D5DD4 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		B081FC1216980795003D5DD4 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		B081FC1316980795003D5DD4 /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,16 +103,15 @@
 			children = (
 				B081FBEB169803C3003D5DD4 /* AppDelegate.h */,
 				B081FBEC169803C3003D5DD4 /* AppDelegate.m */,
-				B081FBF4169803C4003D5DD4 /* FirstViewController.h */,
-				B081FBF5169803C4003D5DD4 /* FirstViewController.m */,
-				B081FBF7169803C4003D5DD4 /* first.png */,
-				B081FBF9169803C4003D5DD4 /* first@2x.png */,
-				B081FBFB169803C4003D5DD4 /* SecondViewController.h */,
-				B081FBFC169803C4003D5DD4 /* SecondViewController.m */,
-				B081FBFE169803C4003D5DD4 /* second.png */,
-				B081FC00169803C4003D5DD4 /* second@2x.png */,
-				B081FC02169803C4003D5DD4 /* FirstViewController.xib */,
-				B081FC05169803C4003D5DD4 /* SecondViewController.xib */,
+				B081FBF4169803C4003D5DD4 /* OnlineViewController.h */,
+				B081FBF5169803C4003D5DD4 /* OnlineViewController.m */,
+				B081FBFB169803C4003D5DD4 /* TrafficViewController.h */,
+				B081FBFC169803C4003D5DD4 /* TrafficViewController.m */,
+				B081FC1116980795003D5DD4 /* PictureViewController.h */,
+				B081FC1216980795003D5DD4 /* PictureViewController.m */,
+				B081FC1316980795003D5DD4 /* PictureViewController.xib */,
+				B081FC02169803C4003D5DD4 /* OnlineViewController.xib */,
+				B081FC05169803C4003D5DD4 /* TrafficViewController.xib */,
 				B081FBE3169803C3003D5DD4 /* Supporting Files */,
 			);
 			path = MapTest;
@@ -116,6 +120,10 @@
 		B081FBE3169803C3003D5DD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B081FBF7169803C4003D5DD4 /* first.png */,
+				B081FBF9169803C4003D5DD4 /* first@2x.png */,
+				B081FBFE169803C4003D5DD4 /* second.png */,
+				B081FC00169803C4003D5DD4 /* second@2x.png */,
 				B081FBE4169803C3003D5DD4 /* MapTest-Info.plist */,
 				B081FBE5169803C3003D5DD4 /* InfoPlist.strings */,
 				B081FBE8169803C3003D5DD4 /* main.m */,
@@ -186,8 +194,9 @@
 				B081FBFA169803C4003D5DD4 /* first@2x.png in Resources */,
 				B081FBFF169803C4003D5DD4 /* second.png in Resources */,
 				B081FC01169803C4003D5DD4 /* second@2x.png in Resources */,
-				B081FC04169803C4003D5DD4 /* FirstViewController.xib in Resources */,
-				B081FC07169803C4003D5DD4 /* SecondViewController.xib in Resources */,
+				B081FC04169803C4003D5DD4 /* OnlineViewController.xib in Resources */,
+				B081FC07169803C4003D5DD4 /* TrafficViewController.xib in Resources */,
+				B081FC1516980795003D5DD4 /* PictureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +209,9 @@
 			files = (
 				B081FBE9169803C3003D5DD4 /* main.m in Sources */,
 				B081FBED169803C3003D5DD4 /* AppDelegate.m in Sources */,
-				B081FBF6169803C4003D5DD4 /* FirstViewController.m in Sources */,
-				B081FBFD169803C4003D5DD4 /* SecondViewController.m in Sources */,
+				B081FBF6169803C4003D5DD4 /* OnlineViewController.m in Sources */,
+				B081FBFD169803C4003D5DD4 /* TrafficViewController.m in Sources */,
+				B081FC1416980795003D5DD4 /* PictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,20 +226,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		B081FC02169803C4003D5DD4 /* FirstViewController.xib */ = {
+		B081FC02169803C4003D5DD4 /* OnlineViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B081FC03169803C4003D5DD4 /* en */,
 			);
-			name = FirstViewController.xib;
+			name = OnlineViewController.xib;
 			sourceTree = "<group>";
 		};
-		B081FC05169803C4003D5DD4 /* SecondViewController.xib */ = {
+		B081FC05169803C4003D5DD4 /* TrafficViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B081FC06169803C4003D5DD4 /* en */,
 			);
-			name = SecondViewController.xib;
+			name = TrafficViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

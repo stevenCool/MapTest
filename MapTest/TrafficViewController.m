@@ -1,24 +1,24 @@
 //
-//  SecondViewController.m
+//  TrafficViewController.h.m
 //  MapTest
 //
 //  Created by steven on 1/5/13.
 //  Copyright (c) 2013 steven. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "TrafficViewController.h"
 
-@interface SecondViewController ()
+@interface TrafficViewController()
 
 @end
 
-@implementation SecondViewController
+@implementation TrafficViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Second", @"Second");
+        self.title = NSLocalizedString(@"Traffic", @"Traffic");
         self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;

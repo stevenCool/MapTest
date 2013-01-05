@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  OnlineViewController.h
 //  MapTest
 //
 //  Created by steven on 1/5/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface OnlineViewController : UIViewController
 
 @end

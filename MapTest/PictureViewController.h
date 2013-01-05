@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  PictureViewController.h
 //  MapTest
 //
 //  Created by steven on 1/5/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface PictureViewController : UIViewController
 
 @end

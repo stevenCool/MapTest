@@ -8,9 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
+#import "OnlineViewController.h"
+#import "TrafficViewController.h"
+#import "PictureViewController.h"
 
 @implementation AppDelegate
 
@@ -25,10 +25,11 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil] autorelease];
+    UIViewController *viewController1 = [[[OnlineViewController alloc] initWithNibName:@"OnlineViewController" bundle:nil] autorelease];
+    UIViewController *viewController2 = [[[TrafficViewController alloc] initWithNibName:@"TrafficViewController" bundle:nil] autorelease];
+    UIViewController *viewController3 = [[[PictureViewController alloc] initWithNibName:@"PictureViewController" bundle:nil] autorelease];
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = @[viewController1, viewController2];
+    self.tabBarController.viewControllers = @[viewController1, viewController2,viewController3];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     return YES;
